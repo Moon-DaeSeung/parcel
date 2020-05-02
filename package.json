@@ -1,0 +1,54 @@
+{
+  "name": "parcel",
+  "version": "1.0.0",
+  "description": "that is my parcel lesson",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html -d build --public-url ./",
+    "build-r": "react-scripts build",
+    "start-r": "react-scripts start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moon-DaeSeung/parcel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Moon-DaeSeung/parcel/issues"
+  },
+  "homepage": "https://github.com/Moon-DaeSeung/parcel#readme",
+  "dependencies": {
+    "autoprefixer": "^9.7.6",
+    "axios": "^0.19.2",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "cssnano": "^4.1.10",
+    "postcss-modules": "^2.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.1",
+    "styled-components": "^5.1.0",
+    "typography": "^0.16.19"
+  },
+  "devDependencies": {
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
