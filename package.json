@@ -21,7 +21,7 @@
   "homepage": "https://github.com/Moon-DaeSeung/parcel#readme",
   "dependencies": {
     "autoprefixer": "^9.7.6",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-core": "^6.26.3",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.7.0",
